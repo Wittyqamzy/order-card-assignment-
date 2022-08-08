@@ -1,70 +1,116 @@
-
-
 body{
-    font-family: "Red Hat Display", sans-serif;
-    background-size: cover;
-    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'spartan', sans-serif;
+    background-color: hsl(300,24%,96%);
+}
+.star1{
+    border: solid hsl(300, 24%, 96%) 2px;
+    background-color:hsl(300, 24%, 96%);
+    margin: 20px;
+    width: 600px;
+    padding: 10px;
+    color:hsl(300, 43%, 22%);
+    align-self: start;
+}
+.star2{
+    border:  hsl(300, 43%, 22%);
+    background-color:hsl(300, 24%, 96%);
+    margin: 20px;
+    width: 600px;
+    padding: 10px;
+    color:hsl(300, 43%, 22%);
+}   
+.star3{
+    border: hsl(300, 43%, 22%);
+    background-color:hsl(300, 24%, 96%);
+    margin: 20px;
+    width: 600px;
+    padding: 10px;
+    color:hsl(300, 43%, 22%);
+}
+ .wrapper{
+     width: 90%;
+     margin:30px auto
+ }   
+ .inner-wrapper{
+     text-align: center;
+     margin:60px 0;
+ }
+ .wrap1 h2{
+     font-weight: 700;
+     color:hsl(300, 43%, 22%);
+     font-size: 50px;
+ }
+ .wrap1 p{
+     font-weight: 500;
+     margin: 30px 0;
+     color:hsl(300, 43%, 22%); 
+ }
+    
+#sub{
+    color:hsl(300, 43%, 22%); 
     font-weight: 700;
-    height: 100px;
-    background-color:hsl(225, 100%, 98%);
+    margin: 20px;
+    padding: 30px;
+    border: 20px;
 }
-.order{
-    width: 375px;
-    margin: auto;
-    border-radius: 20px;
-    padding-bottom: 30px;
-}
-.hero{
-    width: 100%;
-    border-radius: 20px;
-}
-.info{
-    text-align: center;
-}
-p{
-    font-size: 16px;
-}
- .details{
+
+.flexcontainer{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 30px;
-    border-radius: 10px;
-
+    border: 2px;
+    justify-content: space-between;
+    align-items:center;
+    height: 400px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px;
+    
 }
-.music{
-    width: 20%;
+.box1{
+    align-self: start;
+    background-color:hsl(300, 43%, 22%);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    font-size: 15px;
+    justify-items: right;
 }
-.plan{
-    margin-left: -20px;
-    display: block;
-    text-align: left;
+.box2{
+    align-self: center;
+    background-color:hsl(300, 43%, 22%);
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    align-content: center;
+    font-size: 15px;
 }
-.link{
-    display: block;
-    text-align: right;
-    color: black;
+.box3{
+    align-self: end;
+    background-color:hsl(300, 43%, 22%); 
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-size: 15px;
+    align-content: center;
 }
-.proceed{
-    background-color:hsl(245, 75%, 52%);
-    padding: 1px 20px;
+.colton{
+    width:50px;
+    height: 50px;
+    
+}
+.irene{
+    width: 50px;
+    height: 50px;
+    
+}
+.anne{
+    width: 50px;
+    height: 50px;
+}
+h6{
     text-align: center;
-    border-radius: 15px;
-    margin: 0 30px;
-    font-weight: 900;
-    width: 100%;
+    color: orangered;
+    margin: 5px;
 }
-    .cancel{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; 
-       width: 100%;
-       padding: 15px;
-       margin: 10px;
-    }
-        
-    
-
-
-    
